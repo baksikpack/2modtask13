@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  db:
+    image: postgres:13.1
+    environment:
+      POSTGRES_DB: "task_13"
+      POSTGRES_USER: "task_13"
+      POSTGRES_PASSWORD: "task_13"
+    ports:
+      - "5432:5432"
